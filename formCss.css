@@ -1,0 +1,80 @@
+.holder{
+  margin: 34%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: grey;
+  text-align: center;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.forgot{
+  font-size: 0.9rem;
+}
+
+.logo{
+  width: 150px;
+  padding-top: 15px;
+}
+
+h1, p{
+  margin: 0;
+  margin-bottom: 1%;
+}
+
+.form{
+  margin: 5%;
+  color: #4285F4;
+  text-align: left;
+}
+input{
+  width: 100%;
+  height: 35px;
+  border: none;
+  border: grey solid 1px;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+a{
+  text-decoration: none;
+  color: #4285F4;
+}
+.grey{
+  color: grey;
+  font-size: 0.84rem;
+  margin-top: 12%;
+}
+
+.footer{
+  margin-top: 7%;
+}
+button{
+  width: 80px;
+  height: 35px;
+  background-color: #4285F4;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+}
+.footer, .footer-2, .menu{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-2, .footer-2 a{
+  font-size: 0.8rem;
+  color: grey;
+  margin: 5%;
+  margin-bottom: 2%;
+}
+.menu{
+  margin-right: 5%;
+}
